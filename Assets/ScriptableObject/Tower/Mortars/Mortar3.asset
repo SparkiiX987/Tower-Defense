@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1afc2e258de09f4ca272a3d314d62e6, type: 3}
+  m_Name: Mortar3
+  m_EditorClassIdentifier: 
+  _name: Canon superieur
+  _coast: 450
+  _range: 7
+  _damages: 40
+  _attackCooldown: 3
+  _damagesType: 1
+  _sprite: {fileID: -3390288882222908831, guid: c4bb018e4ecea32468618528e28ab9fc, type: 3}
+  _bulletPrefab: {fileID: 4986295535585908874, guid: bb4ef31f09ecfd64e8eabd1912327bfc, type: 3}
+  NextTowers:
+  - {fileID: 11400000, guid: 5b28bb73725a76947a8b28367d58eed9, type: 2}
+  refundCoast: 930
+  shootSFX: {fileID: 8300000, guid: c72476ec19c0b224d9efb69c62e46760, type: 3}
+  capacity: 1

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1afc2e258de09f4ca272a3d314d62e6, type: 3}
+  m_Name: Archers2
+  m_EditorClassIdentifier: 
+  _name: Elite archer tower
+  _coast: 240
+  _range: 6
+  _damages: 16
+  _attackCooldown: 0.6
+  _damagesType: 1
+  _sprite: {fileID: -2191259430094511970, guid: 2ad38734e5bf8384693357f974653233, type: 3}
+  _bulletPrefab: {fileID: 4986295535585908874, guid: 224329d888ce7f443a54488e2f2d1719, type: 3}
+  NextTowers:
+  - {fileID: 11400000, guid: 44ae98850b8e4014d8de8f82326537c2, type: 2}
+  - {fileID: 11400000, guid: 5b28bb73725a76947a8b28367d58eed9, type: 2}
+  refundCoast: 360
+  shootSFX: {fileID: 8300000, guid: b45fec4540393734bacf174c594ab643, type: 3}
+  capacity: 0

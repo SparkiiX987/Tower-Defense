@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1afc2e258de09f4ca272a3d314d62e6, type: 3}
+  m_Name: Mage2
+  m_EditorClassIdentifier: 
+  _name: Tour d'adeptes
+  _coast: 280
+  _range: 5
+  _damages: 28
+  _attackCooldown: 1
+  _damagesType: 2
+  _sprite: {fileID: -8958678737004988532, guid: 155770fa5d0939d4ca355e766523b0cf, type: 3}
+  _bulletPrefab: {fileID: 4986295535585908874, guid: e164630264f794440b2bb2e8184ac049, type: 3}
+  NextTowers:
+  - {fileID: 11400000, guid: 14e3a0d09d5eef34fb75e2e90b4cdb7d, type: 2}
+  - {fileID: 11400000, guid: 5b28bb73725a76947a8b28367d58eed9, type: 2}
+  refundCoast: 440
+  shootSFX: {fileID: 8300000, guid: 3ca9cfff45d822f4da8841453eeac057, type: 3}
+  capacity: 0

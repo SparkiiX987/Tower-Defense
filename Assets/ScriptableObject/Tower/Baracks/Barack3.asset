@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c80c7e30ada081f45ae2ecabae895794, type: 3}
+  m_Name: Barack3
+  m_EditorClassIdentifier: 
+  _coast: 360
+  _range: 7
+  _damages: 55
+  _attackCooldown: 1
+  _damagesType: 1
+  _sprite: {fileID: 7810706931686729434, guid: de5162f29338dc1499def81e64031aea, type: 3}
+  _bulletPrefab: {fileID: 0}
+  NextTowers: []
+  unitHealthPoints: 200
+  unitPrefab: {fileID: 8409518052228678177, guid: 261c8e658438c1d48bfbb48f1ff4db9d, type: 3}

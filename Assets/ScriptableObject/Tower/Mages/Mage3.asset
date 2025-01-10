@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1afc2e258de09f4ca272a3d314d62e6, type: 3}
+  m_Name: Mage3
+  m_EditorClassIdentifier: 
+  _name: Tour de mage
+  _coast: 420
+  _range: 6
+  _damages: 38
+  _attackCooldown: 1
+  _damagesType: 2
+  _sprite: {fileID: -4184064754647326383, guid: 95cc9a248313b3a4d9ba807ed4363a4c, type: 3}
+  _bulletPrefab: {fileID: 4986295535585908874, guid: e164630264f794440b2bb2e8184ac049, type: 3}
+  NextTowers:
+  - {fileID: 11400000, guid: 5b28bb73725a76947a8b28367d58eed9, type: 2}
+  refundCoast: 860
+  shootSFX: {fileID: 8300000, guid: 3ca9cfff45d822f4da8841453eeac057, type: 3}
+  capacity: 0

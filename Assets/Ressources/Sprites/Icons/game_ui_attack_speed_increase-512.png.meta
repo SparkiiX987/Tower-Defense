@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      game_ui_attack_speed_increase-512_0: 3771440583101514323
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
